@@ -4,16 +4,16 @@ body {
 }
 
 a {
-  color: #aeaeae;
+  color: #885df1;
 }
 
 .weather-app {
-  background: #1d1d1d;
+  background: white;
   max-width: 600px;
   margin: 60px auto;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 30px 50px rgba(30, 29, 32, 0.1);
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
 header {
@@ -34,8 +34,8 @@ header {
 .search-button {
   margin-left: 5px;
   font-size: 16px;
-  background-color: #a2ff00;
-  color: #1d1d1d;
+  background-color: #885df1;
+  color: white;
   border: none;
   padding: 20px;
   line-height: 1;
@@ -51,7 +51,6 @@ main {
 }
 
 .current-weather {
-  color: #a2ff00;
   display: flex;
   justify-content: space-between;
 }
@@ -62,14 +61,14 @@ main {
   margin: 0;
 }
 .current-details {
-  color: white;
+  color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
 }
 
 .current-details strong {
-  color: #003cff;
+  color: #f65282;
 }
 
 .current-temperature-icon {
@@ -95,5 +94,5 @@ footer {
   text-align: center;
   padding-top: 15px;
 
-  color: white;
+  color: rgba(39, 33, 66, 0.4);
 }
